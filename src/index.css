@@ -1,13 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Impact, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', Haettenschweiler, 'Arial Narrow Bold', sans-serif
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+#memeFont{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo {
+  height: 4rem;
+  width: auto;
+ 
+}
+.cart{
+  margin: 3px;
+  size: 4rem;
+  color:rgb(189, 189, 247)
+}
+button{
+  margin: 3px;
+  color:rgb(189, 189, 247)
+}
+input {
+  margin: 3px;
+}
+.mainHomePage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  height: 55px;
+}
+h3{
+  margin: 3px;
+  font-weight: bold;
+  font-size: x-large;
+  
+}
+.productCard{
+  border: 2px solid palevioletred;
+  border-radius: 15px;
+  
+ 
+}
+.menu{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.menuItem {
+  margin: 15px;
+  font-size: 18px;
+}
+.phoneImg{
+  width: 60px;
+  height: auto;
+  margin: 3px;
+  object-fit: cover;
+}
+.productItem{
+  border: 2px solid grey;
+  list-style: none;
+  border-radius: 15px;
+  margin: 15px;
+  background-color: beige;
+  display: flex;
+ align-items: center;
+ flex-direction: column;
+ width: 250px;
+ height: 300px;
+ padding: 10px;
+
+ }
+ .product{
+  overflow-wrap: break-all;
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+ }
+ #map {height: 180px;}
